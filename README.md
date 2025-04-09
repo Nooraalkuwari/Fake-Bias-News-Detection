@@ -1,2 +1,3 @@
-# Fake-Bias-News-Detection
-Automated system for detecting fake news and media bias in global news articles using NLP and BERT.
+# Fake News and Media Bias Detection System
+## Python, Transformers, PyTorch, MongoDB, RSS, NLP
+Developed an automated system that collects news articles from global RSS feeds (e.g., BBC, CNN, Reuters) and uses advanced machine learning models to detect fake news and media bias. The system integrates BERT-based models for sentence-level classification, performs sentiment analysis using TextBlob, and stores analyzed articles in a MongoDB database. Implemented real-time logging, keyword extraction, and automated scheduling for hourly scraping and analysis. Ensured model loading reliability and data redundancy via CSV backups.
